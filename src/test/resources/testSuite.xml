@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestingGmail" verbose="5" data-provider-thread-count="1">
+		<parameter name="browserName" value="firefox"/>	
+	
+	<test name="TestInitPage">
+	
+		<classes>
+		  <class name="com.gmail.test.pages.InitPageTest"/>
+		</classes>
+			
+	</test>	  
+	
+	<test name="TestLoginPage">
+	
+		<classes>
+		  <class name="com.gmail.test.pages.LoginPageTest"/>
+		</classes>
+			
+	</test>	 
+	
+		<test name="TestGmailPage">
+	
+		<classes>
+		  <class name="com.gmail.test.pages.GmailPageTest"/>
+		</classes>
+			
+	</test>	
+	
+</suite>
